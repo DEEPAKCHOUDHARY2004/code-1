@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins&display=swap");
+
+
+.heading{
+  font-family: "Brush Script MT", cursive;
+  color: white;
+margin-top:30px;
+align-items: center;
+text-shadow: 6px 2px 4px #000000;
+
+}
+#boxcard{
+ margin: 15px;
+ margin-top: 50px;
+
+
+  
+}
+
+#boxcard a:hover{
+  box-shadow: 4px 2px 4px #000000;
+  border-radius: 5px;
+}
+.card-body{
+ color: transparent;
+ background-color: transparent;
+ 
+ background-image: url('./background-img/raindrops-window-with-blue-sky.jpg');
+}
+body {
+  background-image: url('./background-img/raindrops-window-with-blue-sky.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+}

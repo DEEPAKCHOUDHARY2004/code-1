@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.heading{
+ margin: auto;
+  animation-name: hexample;
+  animation-duration: 14s;
+  text-shadow: 2px 2px 5px;
+  text-align: center;
+  margin-top: 20px;
+}
+@keyframes hexample {
+    0%   {color: rgb(255, 255, 255);}
+    25%  {color: rgb(109, 109, 105);}
+    50%  {color: rgb(128, 128, 187);}
+    100% {color: rgb(0, 173, 0);}
+    110% {color: rgb(36, 33, 33);}
+}
+.heading2{
+    text-align: center;
+}
+.qusi{
+     margin-left:10px ;
+
+}
+.container {
+    position: relative;
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+;
+    
+  }
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .img1{
+      
+      width: 100%;
+
+  }
