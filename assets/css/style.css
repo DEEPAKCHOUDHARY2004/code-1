@@ -1568,7 +1568,11 @@ textarea.form-control {
   min-height: 100px;
 }
 #contactform:hover{
-  box-shadow: 10px 10px 5px grey;
+  box-shadow: 10px 10px 5px 5px grey;
+  animation: mymove 5s infinite;
+}
+@keyframes mymove {
+  50% {box-shadow: 10px 20px 30px blue;}
 }
 #contactform .form-group #submit {
   display: block;
