@@ -1103,10 +1103,12 @@ span.percentfactor {
   height: 6px;
   border-radius: 1px;
   margin-bottom: 5px;
+  background: rgb(4, 90, 4);
 }
 
-.progress-bar {
+.progress-bars {
   background: rgb(4, 90, 4);
+
 }
 
 .progress-meta {
@@ -3243,7 +3245,7 @@ p.copyright {
 
 #mapmarker{
   font-size:38px;
-  color:red;
+  color:rgb(0, 0, 0);
 }
 #mapmarker a:hover{
   color: #33ff00;
